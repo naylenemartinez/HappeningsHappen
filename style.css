@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:10px;
+  margin-top: 50px;
+  margin-left:80px;
+  margin-right: 60px;
+}
+
+#intro{
+    margin-left:80px;
+   border: double;
+  border-color: black;
+}
+
+h5{
+  color:rgb(115, 235, 133)
+}
+
+p{
+color:rgb(142, 0, 237);
+font-family: 'Josefin Sans', sans-serif;
+}
